@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://artzilla-ui.netlify.app/cssfiles/artzilla-u&i.css">
+    <link rel="stylesheet" href="/cssfiles/main.css">
+    <title>Cart</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="header-container">
+            <li class="logo">KidsZilla</li>
+            <li class="search-bar">
+                <input type="search" placeholder="search">
+                <span class="search-icon fa fa-search"></span>
+            </li>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn"><span class="hamburger-menu fa fa-bars"></span></label>
+            <div class="responsive-icons">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/product-page/product.html">Shop</a></li>
+                <li><a href="#"><i class="fa fa-heart icons"></i>Wishlist</a></li>
+                <li><a href="./cart.html"><i class="fa fa-shopping-cart icons"></i>Cart</a></li>
+                <li><a href="#"><i class="fa fa-user icons"></i>Signup/Signin</a></li>
+            </div>
+            <div class="nav-icons">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="/product-page/product.html">Shop</a></li>
+                <li><a href="#"><i class="fa fa-user"></i></a></li>
+                <li><a href="#"><i class="fa fa-heart"></i><span class="items-quant">2</span></a></li>
+                <li><a href="./cart.html"><i class="fa fa-shopping-cart"></i><span class="items-quant">2</span></a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="grid-container">
+        <main class="main-content">
+            <div class="cart-left-side">
+                <div class="cart-heading-container">
+                    <h3 class="heading-text3 cart-heading">My Cart : <span>2 items</span></h3>
+                </div>
+                <div class="cart-left-pane">
+                    <div class="horizontal-card cart-card">
+                        <img src="/assets/toy2.jpg" alt="image">
+                        <div class="card-desc-block">
+                            <h1>Mickey Mouse</h1>
+                            <p>Multicoloured soft toys Disney</p>
+                            <div class="rating-container">
+                                <i class="rating-icon checked fa fa-star"></i>
+                                <i class="rating-icon checked fa fa-star"></i>
+                                <i class="rating-icon checked fa fa-star"></i>
+                                <i class="rating-icon checked fa fa-star"></i>
+                                <i class="rating-icon fa fa-star"></i>
+                            </div>
+                            <span class="text-secondary">₹299</span>
+                            <div class="increase-item">
+                                <button class="btn-click-counter">-</button>
+                                <button class="item-quantity" disabled>2</button>
+                                <button class="btn-click-counter">+</button>
+                            </div><br>
+                            <div class="card-buttons">
+                                <a class="wish-button">Move to Wishlist</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="horizontal-card cart-card">
+                        <img src="/assets/toy2.jpg" alt="image">
+                        <div class="card-desc-block">
+                            <h1>Mickey Mouse</h1>
+                            <p>Multicoloured soft toys Disney</p>
+                            <div class="rating-container">
+                                <i class="rating-icon checked fa fa-star"></i>
+                                <i class="rating-icon checked fa fa-star"></i>
+                                <i class="rating-icon checked fa fa-star"></i>
+                                <i class="rating-icon checked fa fa-star"></i>
+                                <i class="rating-icon fa fa-star"></i>
+                            </div>
+                            <span class="text-secondary">₹299</span>
+                            <div class="increase-item">
+                                <button class="btn-click-counter">-</button>
+                                <button class="item-quantity" disabled>2</button>
+                                <button class="btn-click-counter">+</button>
+                            </div><br>
+                            <div class="card-buttons">
+                                <a class="wish-button">Move to Wishlist</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside class="right-aside-bar">
+            <div class="bill-container">
+                <h4>COUPONS</h4>
+                <button class="btn coupon">
+                    <i class="fa fa-tag"></i>
+                    Apply Coupon
+                </button>
+                <hr>
+                <h4>PRICE DETAILS: (5 items)</h4>
+                <hr>
+                <div class="bill-card-body">
+                    <div class="price-summary">
+                        <h5>Total MRP: </h5>
+                        <span class="text-secondary"> ₹1999</span>
+                    </div>
+                    <div class="price-summary">
+                        <h5>Discount on MRP: </h5>
+                        <span class="text-secondary"> ₹199</span>
+                    </div>
+                    <div class="price-summary">
+                        <h5>Delivery Charge: </h5>
+                        <span class="text-secondary">
+                            <strike>₹99</strike>
+                            free
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="price-summary total-bill">
+                        <h5>Total Amount: </h5>
+                        <span class="text-secondary">₹1800</span>
+                    </div>
+                    <hr>
+                    <button class="btn place-order">Place Order</button>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <footer class="bottom-footer-bar">
+        <div class="footer-container">
+            <div class="first-line-footer">
+                <h2>Made with <i class="fa fa-code"></i> by Sagar Raj</h2>
+            </div>
+            <div class="nav-right-logo">
+                <a class="list-logo" href="https://github.com/sagargse"><i class="fa fa-github"></i></a>
+                <a class="list-logo" href="https://twitter.com/sagarastic_"><i class="fa fa-twitter"></i></a>
+                <a class="list-logo" href="https://www.linkedin.com/in/sagar-raj-a910711b2/"><i
+                        class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="last-line-footer">
+                <small><b>@2022 kidsZilla</b></small>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
