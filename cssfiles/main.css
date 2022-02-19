@@ -4,6 +4,7 @@
 @import url('/home-page/home.css');
 @import url("/product-page/products.css");
 @import url("/cart-page/cart.css");
+@import url("/wishlist-page/wishlist.css");
 :root{
     --primary-color:#191919;
     --secondary-color:#ff7043;
