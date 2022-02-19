@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/cssfiles/main.css">
+    <title>E-Commerce</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="header-container">
+            <li class="logo">KidsZilla</li>
+            <li class="search-bar">
+                <input type="search" placeholder="search">
+                <span class="search-icon fa fa-search"></span>
+            </li>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn"><span class="hamburger-menu fa fa-bars"></span></label>
+            <div class="responsive-icons">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/product-page/product.html">Shop</a></li>
+                <li><a href="/wishlist-page/wishlist.html"><i class="fa fa-heart icons"></i>Wishlist</a></li>
+                <li><a href="/cart-page/cart.html"><i class="fa fa-shopping-cart icons"></i>Cart</a></li>
+                <li><a href="./signin.html"><i class="fa fa-user icons"></i>Signup/Signin</a></li>
+            </div>
+            <div class="nav-icons">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/product-page/product.html">Shop</a></li>
+                <li><a href="./signin.html"><i class="fa fa-user"></i></a></li>
+                <li><a href="/wishlist-page/wishlist.html"><i class="fa fa-heart"></i><span class="items-quant">2</span></a></li>
+                <li><a href="/cart-page/cart.html"><i class="fa fa-shopping-cart"></i><span class="items-quant">2</span></a></li>
+            </div>
+        </ul>
+    </nav>
+    <!-- Main content -->
+    <main class="middle-container">
+        <div class="signup-container">
+            <table class="signup-content">
+                <th colspan="2" class="signup-heading">Login</th>
+                <tr class="signup-row">
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="text" name="email" id="email" class="signup-input" placeholder="sagargse@gmail.com" required>
+                    </td>
+                </tr>
+                <tr class="signup-row">
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" id="password" placeholder="************" class="signup-input" required></td>
+                </tr>
+                <tr class="signup-row">
+                    <td><input type="checkbox" name="condition" id="condition">
+                    <label for="condition">Remember Me</label></td>
+                    <td><a class="forgot-link" href="#">Forgot your Password?</a></td>
+                </tr>
+                <tr class="signup-row">
+                <td colspan="2"><button class="btn-submit">Login</button></td>
+            </tr>
+            <tr class="signup-row">
+                <td colspan="2"><a href="./signup.html" class="already-account">Create New Account ></a></td>
+            </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="bottom-footer-bar">
+        <div class="footer-container">
+            <div class="first-line-footer">
+                <h2>Made with <i class="fa fa-code"></i> by Sagar Raj</h2>
+            </div>
+            <div class="nav-right-logo">
+                <a class="list-logo" href="https://github.com/sagargse"><i class="fa fa-github"></i></a>
+                <a class="list-logo" href="https://twitter.com/sagarastic_"><i class="fa fa-twitter"></i></a>
+                <a class="list-logo" href="https://www.linkedin.com/in/sagar-raj-a910711b2/"><i
+                        class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="last-line-footer">
+                <small><b>@2022 kidsZilla</b></small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
