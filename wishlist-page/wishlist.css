@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: baseline;
+    color: var(--secondary-color);
     margin:2rem;
 }
 .wishlist-list{
