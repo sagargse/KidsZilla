@@ -1,14 +1,22 @@
-.grid-container{
+.cart-grid-container{
     display: grid;
     max-width: 100vw;
-    grid-template-areas: 
+    grid-template-areas:
     "main main main aside"
+}
+.navbar{
+    grid-area: header;
 }
 .main-content{
     grid-area: main;
 }
 .right-aside-bar{
     grid-area: aside;
+}
+.cart-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .cart-left-side{
     display: flex;
@@ -90,11 +98,10 @@
     }
     .right-aside-bar{
         margin-left: auto;
-
     }
 }
 @media screen and (max-width:1052px) {
-    .grid-container{
+    .cart-grid-container{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: 
