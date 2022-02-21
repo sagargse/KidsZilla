@@ -1,7 +1,7 @@
 <div align="center">
 
 # KidsZilla 
-## (All in store for your kids)
+## (All in one store for your kids)
   
 </div>
 
